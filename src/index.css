@@ -1,0 +1,102 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family: system-ui, sans-serif;
+  font-size: 15px;
+  color: #1a1a1a;
+
+  background: #f7f7f7;
+  padding: 2rem;
+}
+
+h2 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #555;
+  margin-bottom: 1.2rem;
+}
+
+form {
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+
+  margin-bottom: 1.4rem;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  background: transparent;
+  padding: 0.4rem 0.2rem;
+  font-size: 0.9rem;
+  outline: none;
+
+  min-width: 140px;
+  transition: border-color 0.2s;
+}
+
+input:focus {
+  border-bottom-color: #1a1a1a;
+}
+
+
+button {
+  border: 1px solid #ccc;
+  background: transparent;
+  padding: 0.35rem 0.8rem;
+  font-size: 0.85rem;
+  cursor: pointer;
+  color: #333;
+  transition: background 0.15s, color 0.15s;
+}
+
+button:hover {
+  background: #1a1a1a;
+  color: #fff;
+  border-color: #1a1a1a;
+}
+
+ul {
+  list-style: none;
+  border-top: 1px solid #e0e0e0;
+}
+
+
+li {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.6rem 0;
+  border-bottom: 1px solid #e0e0e0;
+  font-size: 0.9rem;
+}
+
+li strong {
+  font-weight: 600;
+}
+
+li button {
+  margin-left: auto;
+  font-size: 0.78rem;
+  padding: 0.2rem 0.6rem;
+    }
+
+
+
+li button + button {
+  margin-left: 0.3rem;
+}
+
+div + div {
+  margin-top: 2.5rem;
+}
+
+
